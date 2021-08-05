@@ -6,11 +6,15 @@
 /* common-style */
 main{
        display: flex;
-      justify-content: center;
+       flex-direction: column;
+      align-items: center;
+      
 }
 .container{
           background-color: #ffffff;
           width: 870px;
+          padding: 30px;
+          
 }
 body{
           font-family: 'Poppins', sans-serif;
@@ -54,7 +58,12 @@ hr{
        border: 1px solid #D1D1D1;
 }
 
-/* top-blog-styles */
+/*-------------------------------top-blog-styles------------------------------------------------------ */
+.blogs{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-row-gap: 26px;
+}
 .blog{
        display: flex;
 }
