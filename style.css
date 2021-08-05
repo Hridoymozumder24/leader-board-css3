@@ -133,13 +133,13 @@ hr{
        border-radius: 15px;
 }
 
-/*---------------------------
+/*---------------------------git
         media-queries
  --------------------------- */
  /* Mobile-devices */
  
 
-@media (max-width:780px) {
+/* @media (max-width:780px) {
        .container{
               width:100%
        }
@@ -147,4 +147,4 @@ hr{
               flex-direction: column;
        }
        
-}
+} */
